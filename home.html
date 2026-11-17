@@ -7,23 +7,40 @@
     <title>Document</title>
     <style>
         body {
-            color: rgb(13, 13, 14);
-            align-items: center;
-            background-image: url("flowerr.jpg");
+            background-image: url(flowerr.jpg);
+            background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
         }
 
-        .a {
-            text-align: center;
+        ul {
+            display: flex;
+            gap: 40px;
+            margin-left: 700px;
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
 
 <body>
-    <div class="a">
-        <h2>WELCOME</h2>
-    </div>
+    <nav>
+        <div class="a">
+            <ul type="none">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Business</li>
+                <a href="login.html">
+                    <button>Logout</button>
+                </a>
+            </ul>
+        </div>
+    </nav>
 </body>
 
 </html>
