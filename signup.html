@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            align-items: center;
+        }
+
+        .a {
+            color: rgb(250, 248, 248);
+            text-align: center;
+            margin-top: 200px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            background-color: rgb(30, 31, 30);
+            border-radius: 20px;
+        }
+
+        button {
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: rgb(240, 244, 240);
+            background-color: rgb(13, 199, 47);
+        }
+
+        input {
+            background-color: rgb(179, 175, 175);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <h2>Sign Up</h2>
+        <form action="login.html">
+            <div class="b">
+                <label>Email Address</label><br><br>
+                <input type="email" placeholder="Enter your email" required><br><br>
+                <label>Password</label><br><br>
+                <input type="password" placeholder="Enter your password" minlength="6" required><br><br>
+                <button type="submit">Sign Up</button>
+                <div class="c" style="font-style: italic;">
+                    Already have an account?
+                    <a href="login.html" style="color: rgb(9, 1, 1);">Login</a>
+                </div>
+        </form>
+    </div>
+</body>
+
+</html>
